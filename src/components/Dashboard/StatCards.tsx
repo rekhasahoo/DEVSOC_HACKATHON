@@ -5,22 +5,22 @@ export const StatCards = () => {
   return (
     <>
       <Card
-        title="Gross Revenue"
-        value="$120,054.24"
+        title="Solar Energy production"
+        value="20000 Kwh"
         pillText="2.75%"
         trend="up"
         period="From Jan 1st - Jul 31st"
       />
       <Card
-        title="Avg Order"
-        value="$27.97"
+        title="Wind energy production"
+        value="30000 Kwh"
         pillText="1.01%"
         trend="down"
         period="From Jan 1st - Jul 31st"
       />
       <Card
-        title="Trailing Year"
-        value="$278,054.24"
+        title="Total energy consumption"
+        value="6000 Kwh"
         pillText="60.75%"
         trend="up"
         period="Previous 365 days"

@@ -55,7 +55,7 @@ export const ActivityGraph = () => {
     <div className="col-span-8 overflow-hidden rounded border border-stone-300">
       <div className="p-4">
         <h3 className="flex items-center gap-1.5 font-medium">
-          <FiUser /> Activity
+          <FiUser /> Production
         </h3>
       </div>
 
@@ -95,12 +95,12 @@ export const ActivityGraph = () => {
               stroke="#18181b"
               fill="#18181b"
             />
-            <Line
+            {/* <Line
               type="monotone"
               dataKey="Returning"
               stroke="#5b21b6"
               fill="#5b21b6"
-            />
+            /> */}
           </LineChart>
         </ResponsiveContainer>
       </div>
